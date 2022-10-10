@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b81d5aee04.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="quote-container" id="quote-container">
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">What you are is what you have been. What you'll be is what you do now</span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">Buddha</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter" id="twitter" title="Tweet this!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote" title="Add a new quote!">New quote</button>
+        </div>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
